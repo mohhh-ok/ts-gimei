@@ -1,6 +1,6 @@
 {
   "name": "ts-gimei",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "type": "module",
   "description": "日本語の人物名や住所のテストデータを、漢字・ひらがな・カタカナ・ローマ字で出力します。ブラウザ・Node.js両方で使用可能",
   "main": "dist/index.js",
