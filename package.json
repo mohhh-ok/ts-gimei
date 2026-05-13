@@ -28,7 +28,7 @@
     "fs-extra": "^11.3.3",
     "only-allow": "^1.2.2",
     "path": "^0.12.7",
-    "release-it": "^19.2.2",
+    "release-it": "^20.0.1",
     "vitest": "^4.1.6",
     "yaml": "^2.8.2"
   },
