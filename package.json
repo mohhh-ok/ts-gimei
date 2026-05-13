@@ -15,7 +15,9 @@
     "type-check": "tsc --noEmit",
     "preinstall": "npx only-allow bun",
     "generate": "bun scripts/generate.ts",
-    "test": "bun src/test.ts",
+    "pretest": "bun run generate",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "prepublishOnly": "bun run build"
   },
   "dependencies": {},
@@ -27,6 +29,7 @@
     "only-allow": "^1.2.2",
     "path": "^0.12.7",
     "release-it": "^19.2.2",
+    "vitest": "^4.1.6",
     "yaml": "^2.8.2"
   },
   "keywords": [
